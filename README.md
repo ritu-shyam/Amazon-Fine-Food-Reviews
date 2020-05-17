@@ -55,5 +55,20 @@ The main objective for this analysis is to train a model which can seperate the 
  
   * KNN
   * Logistic Regression
- 
+  
+## Conclusion:
+
+  * Positive reviews are very common.
+  * Positive reviews are shorter.
+  * Longer reviews are more helpful.
+  * Despite being more common and shorter, positive reviews are found more helpful.
+  * Frequent reviewers are more discerning in their ratings, write longer reviews, and write more helpful reviews.
+  * Logistic Regression as a classification model performed the best result in classifying the reviews as compared to other classification models. Logistic Regression is able to find the best hyperplane which could sepearte the reviews into positive and negative.
+  * I have also applied different models on all of the featurization techniques result, but i have found that logistic regression on tfidf performed the best result.
+  * Metrics for evaluating logistic regression on tfidf are mentioned below:
+  1. Accuracy : 89.53
+  2. Precision : 0.96(positive) and 0.56(negative)
+  3. Recall : 0.91(positive) and 0.78(negative)
+  4. AUC : 0.93
+  
  
